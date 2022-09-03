@@ -1,0 +1,52 @@
+.body{
+    position:relative;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+.name{
+    font-family: 'Audiowide', cursive;
+}
+
+.navegacion{
+    background-color: #11ffee00;
+}
+
+@media(min-width:360px){
+    .navegacion{
+        background-color: black;
+    }
+    .nav-item a{
+        color: #ffffff;
+    }
+}
+
+@media(min-width:760px){
+    .navegacion{
+        background: rgba(0, 0, 0, 0.199);
+    }
+    .nav-item a{
+        color: #000000;
+    }
+}
+
+.top-nav-collapse{
+    background: rgba(0, 0, 0, 0.74) !important;
+}
+
+.top-nav-collapse a{
+    color: #ffffff;
+}
+
+/* fondo con nombre */
+.fondo{
+    background-image: url(/img/fondo1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
